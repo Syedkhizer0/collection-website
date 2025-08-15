@@ -492,7 +492,7 @@ const renderFilterChips = () => {
 
 // Main Render Function
 const render = () => {
-  loadingEl.style.display = "block";
+ 
   setTimeout(() => {
     renderCategories();
     renderRatingFilter();
@@ -506,3 +506,4 @@ const render = () => {
 loadStateFromURL();
 
 render();
+
