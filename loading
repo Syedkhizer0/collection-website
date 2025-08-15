@@ -118,7 +118,7 @@ const maxPriceLabelEl = document.getElementById("maxPrice");
 const prevPageEl = document.getElementById("prevPage");
 const nextPageEl = document.getElementById("nextPage");
 const pageNumbersEl = document.getElementById("pageNumbers");
-const loadingEl = document.getElementById("loading");
+
 
 // Categories
 const categories = [
@@ -504,4 +504,5 @@ const render = () => {
 
 // Initialize
 loadStateFromURL();
+
 render();
